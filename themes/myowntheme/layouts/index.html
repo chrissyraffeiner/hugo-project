@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }} </title>
-        <link rel="stylesheet" href="{{ absURL  }}css/index.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/index.css">
         {{- partial "head.html" . -}}
     </head>
 
