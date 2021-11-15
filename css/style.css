@@ -50,7 +50,7 @@ h3{
     font-size: 1.5em;
 }
 
-#list{
+#list, #gitdiv{
     margin: 2em 0em 0em 2em;
 }
 
@@ -63,6 +63,16 @@ h3{
 #list li a, a{
     color: #46bcf3;
     font-size: 1.2em;
+}
+
+#gitdiv a{
+    display: block;
+    margin-bottom: 0.4em;
+    margin-left: 0.5em;
+}
+
+#gitdiv{
+    text-align: start !important;
 }
 
 img{
@@ -85,8 +95,8 @@ img{
     font-size: 3em;
 }
 
-#overflow{
-    height: 10%;
+img{
+    width: 32em;
 }
 
 /*Footer*/
