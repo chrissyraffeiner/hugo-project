@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <title> {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }} </title>
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/index.css">
+        {{- partial "head.html" . -}}
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <h1>{{ .Title }}</h1>
+            </div>
+            <nav>
+                {{ partial "menu.html" . }}
+            </nav>
+        </header>
+
+        <div class="content">
+            <div class="contentbox">
+                <h2>{{.Params.Ue1}}</h2>
+                <p>{{.Params.Desc}}</p>
+    
+                <h3>{{.Params.Ue2}}</h3>
+                <img src="/Logo.jpeg" alt="Logo" id="Logo">
+                <p id="logotext">{{.Params.logotext}}</p>
+            </div>
+           <hr>
+           <div class="contentbox">
+                <h2>{{.Params.Ue3}}</h2>
+                <p>{{.Params.More}}</p>
+                <p>{{.Params.Click}}</p>
+                <button><a href="{{ .Site.BaseURL }}/topics">More Info</a></button>
+                <h3>{{.Params.Ue4}}</h3>
+                {{ partial "github.html" . }}
+            </div>
+        </div>
+
+    </body>
+</html>

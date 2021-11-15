@@ -1,0 +1,11 @@
+{{define "main"}}
+<div id="list">
+    <h2>Get to know more of the following topics:</h2>
+    {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+    {{ end }}
+</div>
+
+{{end}}
