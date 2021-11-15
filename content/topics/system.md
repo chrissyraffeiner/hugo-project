@@ -5,4 +5,4 @@ draft: false
 ---
 
 ### Systemarchitektur
-![Systemarchitektur](../static/Systemarchitektur.png)
+![Systemarchitektur](https://chrissyraffeiner.github.io/hugo-project/img/Systemarchitektur.png)
