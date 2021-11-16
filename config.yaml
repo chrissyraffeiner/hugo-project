@@ -2,6 +2,9 @@ baseURL: 'https://chrissyraffeiner.github.io/hugo-project/'
 languageCode: 'en-us'
 title: 'Leo-Database-Learner'
 theme: myowntheme
+copyright: Raffeiner Christine
+author:
+  name: Christine Raffeiner
 
 menu:
   main:
@@ -10,13 +13,13 @@ menu:
       weight: 1
     - name: Team
       url: /topics/team
-      weight: 1
-    - name: Page-List
+      weight: 2
+    - name: Overview
       url: /topics/
       weight: 1
     - name: System
       url: /topics/system
-      weight: 1
+      weight: 2
     - name: Installation
       url: /topics/installation
-      weight: 1
+      weight: 2
