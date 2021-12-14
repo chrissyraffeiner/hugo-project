@@ -1,4 +1,4 @@
-baseURL: 'https://chrissyraffeiner.github.io/hugo-project'
+baseURL: 'https://chrissyraffeiner.github.io/hugo-project/'
 languageCode: 'en-us'
 title: 'Leo-Database-Learner'
 theme: myowntheme
@@ -9,7 +9,7 @@ author:
 menu:
   main:
     - name: Startseite
-      url: /
+      url:  https://chrissyraffeiner.github.io/hugo-project/
       weight: 1
     - name: Git-Repo
       url: https://github.com/htl-leonding-project/leo-database-learner
